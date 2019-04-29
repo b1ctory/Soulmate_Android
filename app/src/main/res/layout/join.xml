@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:weightSum="2">
+
+    <Button
+            android:text="개인"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:id="@+id/personal"/>
+    <Button
+            android:text="사업자"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:id="@+id/company"/>
+</LinearLayout>
